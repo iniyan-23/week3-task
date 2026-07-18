@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Poster Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            letter-spacing: 2px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .poster {
+            width: 250px;
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .poster:hover {
+            transform: scale(1.05);
+        }
+
+        .poster img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .poster h3 {
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .poster p {
+            padding: 0 10px 15px;
+            font-size: 14px;
+            text-align: center;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Movie Poster Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="poster">
+            <img src="https://via.placeholder.com/250x350?text=Movie+Poster+1" alt="Movie Poster 1">
+            <h3>Movie Title 1</h3>
+            <p>Action | Adventure | 2024</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://via.placeholder.com/250x350?text=Movie+Poster+2" alt="Movie Poster 2">
+            <h3>Movie Title 2</h3>
+            <p>Drama | Romance | 2023</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://via.placeholder.com/250x350?text=Movie+Poster+3" alt="Movie Poster 3">
+            <h3>Movie Title 3</h3>
+            <p>Thriller | Mystery | 2025</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1533613220915-609f21a91335?w=250&h=350&fit=crop" alt="Sci-Fi Movie Poster">
+            <h3>Cyber Future</h3>
+            <p>Sci-Fi | Action | 2024</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=250&h=350&fit=crop" alt="Comedy Movie Poster">
+            <h3>Laugh Out Loud</h3>
+            <p>Comedy | Family | 2024</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1516573398302-80276917901e?w=250&h=350&fit=crop" alt="Horror Movie Poster">
+            <h3>Dark Shadows</h3>
+            <p>Horror | Thriller | 2025</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=250&h=350&fit=crop" alt="Fantasy Movie Poster">
+            <h3>Enchanted Realm</h3>
+            <p>Fantasy | Adventure | 2024</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1520712014386-fbac3cb63d97?w=250&h=350&fit=crop" alt="Documentary Poster">
+            <h3>Life Untold</h3>
+            <p>Documentary | Biography | 2024</p>
+        </div>
+
+        <div class="poster">
+            <img src="https://images.unsplash.com/photo-1515632066519-c21da9716198?w=250&h=350&fit=crop" alt="Animation Movie Poster">
+            <h3>Animated Dreams</h3>
+            <p>Animation | Family | 2025</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
